@@ -18,6 +18,10 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'vim-scripts/a.vim'
 
+" -- Working with Git --
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+
 call vundle#end()
 
 filetype plugin indent on
