@@ -16,3 +16,5 @@ set hlsearch
 syntax on
 
 set mouse=a
+
+source plugin.vim
