@@ -1,6 +1,6 @@
 set nocompatible    " use vim defaults.  MUST BE FIRST LINE
 
-source bundle.vim
+source ~/.vim/bundle.vim
 
 let s:running_windows = has("win32") || has ("win64")
 let s:colorful_term = (&term =~ "xterm") || (&term =~ "screen")
@@ -17,4 +17,4 @@ syntax on
 
 set mouse=a
 
-source plugin.vim
+source ~/.vim/plugin.vim
