@@ -16,6 +16,8 @@ Plugin 'jistr/vim-nerdtree-tabs'
 
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'vim-scripts/a.vim'
+
 call vundle#end()
 
 filetype plugin indent on
