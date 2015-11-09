@@ -17,4 +17,16 @@ syntax on
 
 set mouse=a
 
+" Default Tab settings
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+
+set colorcolumn=110
+highlight ColorColumn ctermbg=white
+
 source ~/.vim/plugin.vim
+source ~/.vim/ftplugin/myperl.vim
+
+set secure
