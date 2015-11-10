@@ -13,6 +13,10 @@ set showcmd
 set incsearch
 set hlsearch
 
+set spelllang=en
+set spell
+set wrap
+
 syntax on
 
 set mouse=a
@@ -23,7 +27,7 @@ set softtabstop=4
 set shiftwidth=4
 set noexpandtab
 
-set colorcolumn=110
+set colorcolumn=80
 highlight ColorColumn ctermbg=white
 
 source ~/.vim/plugin.vim

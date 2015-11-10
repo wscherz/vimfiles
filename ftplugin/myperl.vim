@@ -19,9 +19,19 @@ set pastetoggle=<F11>
 " my perl includes pod
 let perl_include_pod=1
 
-" syntax colr complex things like @{${"foo"}}
+" syntax color complex things like @{${"foo"}}
 let perl_extended_vars=1
 
 " Run perltidy against file
 map ,pt <Esc>:%! perltidy<CR>
 map ,ptv <Esc>:'<,'>~ perltidy<CR>
+
+nnoremap gf <C-W>gf
+set foldenable
+set cindent
+
+set iskeyword+=:
+set complete+=k~/vim_extras/installed_Perl_module
+
+" Test code on write
+au BufWritePost *.pl,*.pm !perl -wcIlib %
