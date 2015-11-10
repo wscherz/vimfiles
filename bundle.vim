@@ -22,6 +22,8 @@ Plugin 'kien/ctrlp.vim'
 
 Plugin 'vim-scripts/a.vim'
 
+Plugin 'hotchpotch/perldoc-vim'
+
 " -- Working with Git --
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'

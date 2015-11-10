@@ -37,3 +37,4 @@ set complete+=k~/vim_extras/installed_Perl_module
 
 " Test code on write
 au BufWritePost *.pl,*.pm !perl -wcIlib %
+
