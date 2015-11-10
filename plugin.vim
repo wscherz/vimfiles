@@ -20,6 +20,22 @@ nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
 " Always open NERDTree
 let g:nerdtree_tabs_open_on_console_startup=1
 
+" --xolox/vim-easytags --
+set tags=./tags;,~/.vimtags
+" Sensible defaults
+let g:easytags_events = ['BufReadPost', 'BufWritePost']
+let g:easytags_async = 1
+let g:easytags_dynamic_files = 2
+let g:easytags_resolve_links = 1
+let g:easytags_suppress_ctags_warning = 1
+
+" -- majutsushi/tagbar --
+" Toggle tagbar with \b
+nmap <silent> <leader>b :TagbarToggle<CR>
+" Open tagbar automatically when possible
+autocmd BufEnter * nested :call tagbar#autoopen(0)
+
+
 " -- airblade/vim-gitgutter settings --
 " Required after changing the colorscheme
 hi clear SignColumn
