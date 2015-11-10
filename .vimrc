@@ -29,11 +29,18 @@ set softtabstop=4
 set shiftwidth=4
 set noexpandtab
 
-set colorcolumn=80
+set colorcolumn=+0
 highlight ColorColumn ctermbg=white
+if exists('&breakindent')
+	set breakindent
+endif
 
 set backupdir=~/.vim/backup " location of backup files
 set directory=~/.vim/temp   " location of swap files
+
+" move by visual line not logical line
+noremap j gj
+noremap k gk
 
 source ~/.vim/plugin.vim
 source ~/.vim/ftplugin/myperl.vim
