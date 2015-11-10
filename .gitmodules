@@ -40,3 +40,6 @@
 [submodule "bundle/perldoc-vim"]
 	path = bundle/perldoc-vim
 	url = https://github.com/hotchpotch/perldoc-vim
+[submodule "bundle/xptemplate"]
+	path = bundle/xptemplate
+	url = https://github.com/drmingdrmer/xptemplate

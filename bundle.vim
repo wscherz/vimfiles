@@ -24,6 +24,8 @@ Plugin 'vim-scripts/a.vim'
 
 Plugin 'hotchpotch/perldoc-vim'
 
+Plugin 'drmingdrmer/xptemplate'
+
 " -- Working with Git --
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
