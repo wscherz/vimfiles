@@ -23,8 +23,10 @@ let perl_include_pod=1
 let perl_extended_vars=1
 
 " Run perltidy against file
-map ,pt <Esc>:%! perltidy<CR>
-map ,ptv <Esc>:'<,'>~ perltidy<CR>
+nnoremap ,pt :%!perltidy -q<CR>
+vnoremap ,pt :!perltidy -q<CR>
+
+nnoremap ,pd :.!perl -MO=Deparse 2>/dev/null<CR>
 
 nnoremap gf <C-W>gf
 set foldenable

@@ -17,6 +17,8 @@ set spelllang=en
 set spell
 set wrap
 
+set showmatch
+
 syntax on
 
 set mouse=a
@@ -29,6 +31,9 @@ set noexpandtab
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=white
+
+set backupdir=~/.vim/backup " location of backup files
+set directory=~/.vim/temp   " location of swap files
 
 source ~/.vim/plugin.vim
 source ~/.vim/ftplugin/myperl.vim
