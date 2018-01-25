@@ -46,5 +46,6 @@ let g:tagbar_ctags_bin = 'D:\bin\ctags58\ctags.exe'
 
 source ~/.vim/plugin.vim
 source ~/.vim/ftplugin/myperl.vim
+source ~/.vim/ftplugin/pgsql.vim
 
 set secure
