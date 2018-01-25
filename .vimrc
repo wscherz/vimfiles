@@ -42,6 +42,8 @@ set directory=~/.vim/temp   " location of swap files
 noremap j gj
 noremap k gk
 
+let g:tagbar_ctags_bin = 'D:\bin\ctags58\ctags.exe'
+
 source ~/.vim/plugin.vim
 source ~/.vim/ftplugin/myperl.vim
 

@@ -20,6 +20,13 @@ nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
 " Always open NERDTree
 let g:nerdtree_tabs_open_on_console_startup=1
 
+" -- scrooloose/syntastic --
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+
 " --xolox/vim-easytags --
 set tags=./tags;,~/.vimtags
 " Sensible defaults

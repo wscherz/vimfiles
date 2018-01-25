@@ -13,6 +13,7 @@ Plugin 'bling/vim-airline'
 " -- Programmer text editor --
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'scrooloose/syntasstic'
 
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
