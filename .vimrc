@@ -44,5 +44,6 @@ noremap k gk
 
 source ~/.vim/plugin.vim
 source ~/.vim/ftplugin/myperl.vim
+source ~/.vim/ftplugin/pgsql.vim
 
 set secure
