@@ -44,6 +44,7 @@ noremap k gk
 
 if (s:running_windows)
 	let g:tagbar_ctags_bin = 'D:\bin\ctags58\ctags.exe'
+	autocmd GUIEnter * simalt ~x
 else
 	let g:tagbar_ctags_bin = '/usr/bin/ctags'
 endif
