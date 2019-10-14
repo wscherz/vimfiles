@@ -18,7 +18,7 @@ let g:airline#extensions#tabline#enabled=1
 " Open/close NERDTree Tabs with \t
 nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
 " Always open NERDTree
-let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_open_on_console_startup=0
 
 " -- scrooloose/syntastic --
 set statusline+=%#warningmsg#
