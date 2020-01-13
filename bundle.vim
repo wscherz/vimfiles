@@ -34,6 +34,9 @@ Plugin 'tpope/vim-fugitive'
 " -- Rust --
 Plugin 'rust-lang/rust.vim'
 
+" -- Go --
+Plugin 'fatih/vim-go'
+
 call vundle#end()
 
 filetype plugin indent on
