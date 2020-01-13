@@ -13,7 +13,7 @@ Plugin 'bling/vim-airline'
 " -- Programmer text editor --
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'scrooloose/syntasstic'
+Plugin 'scrooloose/syntastic'
 
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
@@ -30,6 +30,9 @@ Plugin 'drmingdrmer/xptemplate'
 " -- Working with Git --
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+
+" -- Rust --
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 
