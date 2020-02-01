@@ -41,14 +41,14 @@ set directory=~/.vim/temp   " location of swap files
 " move by visual line not logical line
 noremap j gj
 noremap k gk
-
+nnoremap <F5> "=strftime("%a, %d %b %Y %H:%M:%S (%Z)")<CR>P
+inoremap <F5> <C-R>=strftime("%a %d %b %Y %H:%M:%S (%Z)")<CR>
 if (s:running_windows)
 	let g:tagbar_ctags_bin = 'D:\bin\ctags58\ctags.exe'
 	autocmd GUIEnter * simalt ~x
 else
 	let g:tagbar_ctags_bin = '/usr/bin/ctags'
 endif
-
 
 source ~/.vim/plugin.vim
 source ~/.vim/ftplugin/myperl.vim
