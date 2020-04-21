@@ -22,6 +22,7 @@ Plugin 'majutsushi/tagbar'
 
 Plugin 'sheerun/vim-polyglot'
 Plugin 'kien/ctrlp.vim'
+Plugin 'prettier/vim-prettier'
 
 Plugin 'vim-scripts/a.vim'
 
