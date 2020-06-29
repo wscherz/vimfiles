@@ -14,12 +14,15 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'scrooloose/syntastic'
+Plugin 'ycm-core/YouCompleteMe'
 
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 
+Plugin 'sheerun/vim-polyglot'
 Plugin 'kien/ctrlp.vim'
+Plugin 'prettier/vim-prettier'
 
 Plugin 'vim-scripts/a.vim'
 
