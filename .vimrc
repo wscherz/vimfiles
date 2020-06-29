@@ -51,6 +51,7 @@ else
 endif
 
 source ~/.vim/plugin.vim
+source ~/.vim/perlart.vim
 source ~/.vim/ftplugin/myperl.vim
 source ~/.vim/ftplugin/pgsql.vim
 
