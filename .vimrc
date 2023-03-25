@@ -54,5 +54,6 @@ source ~/.vim/plugin.vim
 source ~/.vim/perlart.vim
 source ~/.vim/ftplugin/myperl.vim
 source ~/.vim/ftplugin/pgsql.vim
+source ~/.vim/ftplugin/mypython.vim
 
 set secure
